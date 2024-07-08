@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Copyright (c) 2020 LjoveX
+         Copyright (c) 2024 alebruno -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome to BMS Hotels. Try out our virtual assistant!">
+    <meta name="keywords" content="Kafic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMS Hotels - Hello</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <div class="container">
+                <h1 class="logo"><a href="index.html">BMS Hotels</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </nav>  
+        
+         <div id="showcase">
+           <div class="container">
+               <div class="showcase-content">
+                   <h1><span class="text-primary">Enjoy</span> your stay</h1>
+                   <p class="lead">Experience Unparalleled Comfort and Elegance at Our Exclusive Hotel Retreats.<br /> Discover the Heart of Germany: Luxurious Stays in Berlin, München and Stuttgart.</p>
+                   <a class="btn" href="about.html">About our hotels</a>
+               </div>
+           </div>
+         </div>   
+    </header>
+    <section id="home-info" class="bg-dark">
+        <div class="info-img"></div>
+        <div class="info-content">
+          <h2><span class="text-primary">History</span> of our Hotels</h2>
+          <p>
+            BMS stands for Berlin, München, Stuttgart.
+        But it also means Bespoke, Memorable and Sophisticated.
+          Discover the unparalleled charm of our hotels </p>
+          <p>Balancing a rich history with modernity, our hotels now utilize AI technology to seamlessly manage reservations, ensuring efficiency and personalized service for every guest. Try out the virtual assistant on this page.</p>
+          <a href="about.html" class="btn btn-light">Read More</a>
+        </div>
+      </section>
+       <section id="features">
+           <div class="box bg-light">
+            <i class="fas fa-hotel fa-3x"></i>
+               <h3>Great Locations</h3>
+               <p>Hotels with easy access to the city's top attractions.</p>
+           </div>
+           <div class="box bg-primary">
+            <i class="fas fa-utensils fa-3x"></i>
+            <h3>Delicious Meals</h3>
+            <p>Delicious meals crafted using the finest ingredients.</p>
+           </div>
+           <div class="box bg-light">
+            <i class="fas fa-dumbbell fa-3x"></i>
+            <h3>Gym</h3>
+            <p>Exclusive gym with modern equipment.</p>
+           </div>
+       </section>
+       <footer id="main-footer">        
+       </footer>
+       
+       <div id="rasa-chat-widget" data-websocket-url="https://hotelapiwebapp.azurewebsites.net/socket.io/" data-initial-payload="Hi"data-default-open="true" data-primary-highlight="#8c6033" data-primary="#333333"></div>
+       <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script>
+</body>
+</html>
